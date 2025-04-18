@@ -13,7 +13,7 @@ public class Main {
         System.out.println(" O número total de elementos na lista é: " + listaTarefa.obterNumeroTotalTarefas());
 
 
-        listaTarefa.removerTarefa("Tarefa 1");
+        //listaTarefa.removerTarefa("Tarefa 1");
         System.out.println(" O número total de elementos na lista é: " + listaTarefa.obterNumeroTotalTarefas());
 
         listaTarefa.obterDescricoesTarefas();
