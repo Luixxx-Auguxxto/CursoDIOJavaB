@@ -1,4 +1,4 @@
-package SortPerson;
+package ExerciciosList.SortPerson;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package SortPerson;
+package ExerciciosList.SortPerson;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package List2;
+package ExerciciosList.List2;
 
 public class Item {
 
