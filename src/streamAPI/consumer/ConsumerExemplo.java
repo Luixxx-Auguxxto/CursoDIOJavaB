@@ -35,11 +35,17 @@ public class ConsumerExemplo {
 
         //a mesma função só que em lambda
         //intellij retirou o .stream pq não era necessário
-        numeros.forEach(n -> {
-            if (n % 2 == 0) {
-                System.out.println(n);
-            }
-           }
-        );
+//        numeros.forEach(n -> {
+//            if (n % 2 == 0) {
+//                System.out.println(n);
+//            }
+//           }
+//        );
+
+        // a mesma função só que usando um predicate para deixar o codigo mais limpo
+
+        numeros.stream()
+                .filter(p -> p % 2 ==0)
+                .forEach(System.out::println);
     }
 }
